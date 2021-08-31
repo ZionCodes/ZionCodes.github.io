@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-$first-color:#FF0066 ;
-$second-color: #e45820;
+$first-color:#dd095e ;
+$second-color: #d35523;
 $third-color: #ddbc16;
 $fourth-color: #06bd89;
 $fifth-color: #044BD9;
 $text-color: #ffffff;
-
-//, #FF598F
+body {
+    font-family: cursive, sans-serif;
+}
 
 $color: #b83a64;
 
@@ -29,7 +30,7 @@ h2 {
 p  {
     text-align: center;
     color: $text-color;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .first {

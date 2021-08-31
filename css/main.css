@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: cursive, sans-serif;
+}
+
 span {
   background-color: white !important;
 }
@@ -18,15 +22,15 @@ h2 {
 p {
   text-align: center;
   color: #ffffff;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .first {
-  background-color: #FF0066;
+  background-color: #dd095e;
 }
 
 .second {
-  background-color: #e45820;
+  background-color: #d35523;
 }
 
 .third {

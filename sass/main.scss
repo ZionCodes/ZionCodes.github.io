@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$first-color:#FF0066 ;
+$second-color: #e45820;
+$third-color: #ddbc16;
+$fourth-color: #06bd89;
+$fifth-color: #044BD9;
+$text-color: #ffffff;
+
+//, #FF598F
+
+$color: #b83a64;
+
+span {
+    background-color: white !important;
+}
+
+h2 {
+    text-align: center;
+    color: $text-color;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+p  {
+    text-align: center;
+    color: $text-color;
+    font-size: 1.4em;
+}
+
+.first {
+    background-color: $first-color;
+}
+
+.second {
+    background-color: $second-color;
+}
+
+.third {
+    background-color: $third-color;
+}
+
+.fourth {
+    background-color: $fourth-color;
+}
+
+.fifth {
+    background-color: $fifth-color;
+}
+
+@import 'home';
+@import 'about';
+@import 'skills';
+@import 'projects';
+@import 'contact';

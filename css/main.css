@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+span {
+  background-color: white !important;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+.first {
+  background-color: #FF0066;
+}
+
+.second {
+  background-color: #e45820;
+}
+
+.third {
+  background-color: #ddbc16;
+}
+
+.fourth {
+  background-color: #06bd89;
+}
+
+.fifth {
+  background-color: #044BD9;
+}
+
+.first h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.second-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.skills-con ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.skills-con ul li {
+  flex: 0 1 100px;
+  margin: 5px;
+  height: 120px;
+}
+
+.skills-con ul li figure {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-con ul li figure i {
+  color: #ffffff;
+}
+
+.skills-con ul li figcaption {
+  color: #ffffff;
+  text-align: center;
+}
+
+.fourth ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.fourth ul li {
+  flex: 0 1 320px;
+  margin: .5rem;
+}
+
+.fourth ul li a {
+  text-decoration: none;
+}
+
+.fourth ul li figure {
+  height: 150px;
+  overflow: hidden;
+  border: 2px solid #112233;
+}
+
+.fourth ul li figure img {
+  max-width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.fourth ul li figure img:hover {
+  transform: scale(1.1);
+}
+
+.fourth ul li p {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: .5rem;
+}
+
+.fifth ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.fifth ul li {
+  margin: 1rem;
+}
+
+.fifth ul li i {
+  color: #ffffff;
+}

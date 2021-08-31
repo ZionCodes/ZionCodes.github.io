@@ -1,0 +1,19 @@
+
+
+.fifth {
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            margin: 1rem;
+            
+            i {
+                color: $text-color;
+            }
+        }
+    }
+}

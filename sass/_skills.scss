@@ -1,0 +1,39 @@
+
+.skills-con {
+
+    
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        
+        
+
+        li {
+            flex: 0 1 100px;
+            margin: 5px;
+            height: 120px;
+
+            figure {
+
+                height: 100px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                
+                i {
+                    color: $text-color;
+                }
+            }
+
+            figcaption {
+                color: $text-color;
+                text-align: center;
+            }
+        }
+    }
+}

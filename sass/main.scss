@@ -4,57 +4,135 @@
     box-sizing: border-box;
 }
 
-$first-color:#FF598F;
-$second-color: #FD8A5E;
-$third-color: #F2CF1D;
-$fourth-color: #01DDDD;
-$fifth-color: #0476D9;
-$text-color: #ffffff;
+$background:#112233;
+$text:#ffe;
+$grey:grey;
+
 body {
+<<<<<<< HEAD
+    background-color: $background;
+=======
     font-family: sans-serif;
+>>>>>>> 66670542cef90a398f826b7c2d5aef29d757e78f
 }
 
-$color: #b83a64;
 
-span {
-    background-color: white !important;
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    
+
+
+    .animation {
+        margin: .5rem;
+
+        iframe {
+            width: 600px;
+            height: 400px;
+            border: none;
+        }
+
+    }
+        
+
+    .text {
+        color: $text;
+        font-size: 2.4rem;
+        margin: .5rem;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: $grey;
+            transition: transform .5s ease-in-out ;
+
+            &:hover {
+                color: $text;
+                text-decoration: underline 2px;
+            }
+
+        }
+    }
+    
+
 }
 
-h2 {
-    text-align: center;
-    color: $text-color;
-    font-size: 2rem;
-    padding-bottom: 1rem;
+@media screen and (max-width: 868px) {
+    .container {
+        flex-direction: column;
+
+        .animation {
+            iframe {
+                width: 600px;
+                height: 400px;
+                border: none;
+            }
+        }
+    }
+
+    
+}
+@media screen and (max-width: 640px) {
+    .container {
+
+        .animation {
+            iframe {
+                width: 540px;
+                height: 400px;
+                border: none;
+                max-width: 100%;
+            }
+        }
+    }
+
+    
+}
+@media screen and (max-width: 540px) {
+    .container {
+
+        .animation {
+            iframe {
+                width: 440px;
+                height: 400px;
+                border: none;
+            }
+        }
+    }
+
+    
+}
+@media screen and (max-width: 420px) {
+    .container {
+
+        .animation {
+            iframe {
+                width: 320px;
+                height: 300px;
+                border: none;
+            }
+        }
+    }
+
+    
+}
+@media screen and (max-width: 340px) {
+    .container {
+
+        .animation {
+            iframe {
+                width: 300px;
+                height: 300px;
+                border: none;
+            }
+        }
+    }
+
+    
 }
 
-p  {
-    text-align: center;
-    color: $text-color;
-    font-size: 1.2em;
-}
 
-.first {
-    background-color: $first-color;
-}
 
-.second {
-    background-color: $second-color;
-}
-
-.third {
-    background-color: $third-color;
-}
-
-.fourth {
-    background-color: $fourth-color;
-}
-
-.fifth {
-    background-color: $fifth-color;
-}
-
-@import 'home';
-@import 'about';
-@import 'skills';
-@import 'projects';
-@import 'contact';
